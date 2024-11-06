@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  in-memory-db:
+    build: .
+    volumes:
+      - .:/in-memory-db
